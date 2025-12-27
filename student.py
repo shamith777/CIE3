@@ -1,9 +1,11 @@
 def student_details(name,USN,division,age):
-    ("Name: {name}")
-    ("USN: {USN}")
-    ("Division: {division}")
-    ("Age: {age}")
-    return 
+    result = (
+    f"Name: {name}"
+    f"USN: {USN}"
+    f"Division: {division}"
+    f"Age: {age}"
+    )
+    return result 
 if __name__ == "__main__":
     name = "Alice"
     USN = 272
